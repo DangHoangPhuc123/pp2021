@@ -8,6 +8,7 @@ from domain.mark import *
 dhp= curses.initscr() 
 
 def runcode():  
+        dhp.addstr("Start Programming")
         Nco=dp.numcourses()
         dhp.refresh()
         for i in range( Nco):
